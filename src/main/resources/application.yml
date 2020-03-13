@@ -1,0 +1,78 @@
+# application name
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@gitee.com:TTG_personnel/configure.git
+          ignoreLocalSshSettings: true
+          hostKey: Ttg666888
+          hostKeyAlgorithm: ssh-rsa
+          label: master
+          privateKey: |
+            -----BEGIN RSA PRIVATE KEY-----
+            Proc-Type: 4,ENCRYPTED
+            DEK-Info: AES-128-CBC,0166A8ED317FB9AE49F292B028A2A7BA
+
+            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
+            -----END RSA PRIVATE KEY-----
+
+# server monitor port
+server:
+  port: 8181
+
+# eureka server cluster
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
